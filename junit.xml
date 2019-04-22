@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="2" name="pytest" skipped="0" tests="4" time="0.164"><testcase classname="testhome.test_pytest" file="testhome\test_pytest.py" line="3" name="test_data[1-2]" time="0.003"><failure message="AssertionError: 
+Expected: &lt;2&gt;
+     but: was &lt;1&gt;">actual = 1, expect = 2
+
+    @pytest.mark.parametrize(&quot;actual,expect&quot;,[(1,2),(1,1),(&quot;aaa&quot;,&quot;aaa&quot;),(&quot;aaa&quot;,&quot;bbb&quot;)])
+    def test_data(actual,expect):
+&gt;       assert_that(actual,equal_to(expect))
+E       AssertionError: 
+E       Expected: &lt;2&gt;
+E            but: was &lt;1&gt;
+
+testhome\test_pytest.py:6: AssertionError</failure></testcase><testcase classname="testhome.test_pytest" file="testhome\test_pytest.py" line="3" name="test_data[1-1]" time="0.001"></testcase><testcase classname="testhome.test_pytest" file="testhome\test_pytest.py" line="3" name="test_data[aaa-aaa]" time="0.001"></testcase><testcase classname="testhome.test_pytest" file="testhome\test_pytest.py" line="3" name="test_data[aaa-bbb]" time="0.001"><failure message="AssertionError: 
+Expected: &apos;bbb&apos;
+     but: was &apos;aaa&apos;">actual = &apos;aaa&apos;, expect = &apos;bbb&apos;
+
+    @pytest.mark.parametrize(&quot;actual,expect&quot;,[(1,2),(1,1),(&quot;aaa&quot;,&quot;aaa&quot;),(&quot;aaa&quot;,&quot;bbb&quot;)])
+    def test_data(actual,expect):
+&gt;       assert_that(actual,equal_to(expect))
+E       AssertionError: 
+E       Expected: &apos;bbb&apos;
+E            but: was &apos;aaa&apos;
+
+testhome\test_pytest.py:6: AssertionError</failure></testcase></testsuite>

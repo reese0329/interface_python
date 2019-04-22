@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d17e61fc-2052-4e30-9d9a-227280b2ad30" name="Default" comment="" />
+    <list default="true" id="d17e61fc-2052-4e30-9d9a-227280b2ad30" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/21cdd66e3f5710f4104ccc9d026ad442.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/e914c159617f0c4543dbb425e5342502.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testhome/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testhome/test_pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testhome/test_testerhome.py" beforeDir="false" afterPath="$PROJECT_DIR$/testhome/test_testerhome.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,10 +20,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_httpbin2.coverage" NAME="Unittests for test_testerhome.login.test_httpbin2 Coverage Results" MODIFIED="1555921268313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
     <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_topics_response.coverage" NAME="Unittests for test_testerhome.login.test_topics_response Coverage Results" MODIFIED="1555581392528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
+    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login.coverage" NAME="Unittests for test_testerhome.login Coverage Results" MODIFIED="1555920743797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
+    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_auth.coverage" NAME="Unittests for test_testerhome.login.test_auth Coverage Results" MODIFIED="1555922858945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
     <SUITE FILE_PATH="coverage/interface_new$Unittests_in_test_testerhome_py.coverage" NAME="Unittests in test_testerhome.py Coverage Results" MODIFIED="1555574020372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
+    <SUITE FILE_PATH="coverage/interface_new$test_pytest.coverage" NAME="test_pytest Coverage Results" MODIFIED="1555923621032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
     <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_topics.coverage" NAME="Unittests for test_testerhome.login.test_topics Coverage Results" MODIFIED="1555573712858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
-    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_topics_post.coverage" NAME="Unittests for test_testerhome.login.test_topics_post Coverage Results" MODIFIED="1555573833359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
+    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_httpbin.coverage" NAME="Unittests for test_testerhome.login.test_httpbin Coverage Results" MODIFIED="1555920986370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
+    <SUITE FILE_PATH="coverage/interface_new$Unittests_for_test_testerhome_login_test_topics_post.coverage" NAME="Unittests for test_testerhome.login.test_topics_post Coverage Results" MODIFIED="1555902676563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testhome" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -26,16 +41,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_testerhome.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_testerhome.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testhome/test_testerhome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="485">
+              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_pytest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testhome/test_pytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testhome/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface_new.pstat" pinned="false" current-in-tab="false">
+        <entry file="mock://C:\Users\tianruixi\.PyCharm2018.1\system\snapshots\interface_new.pstat">
+          <provider selected="true" editor-type-id="profiler-session-editor" />
         </entry>
       </file>
       <file leaf-file-name="loader.py" pinned="false" current-in-tab="false">
@@ -65,6 +106,9 @@
         <option value="$PROJECT_DIR$/douban/test_login" />
         <option value="$PROJECT_DIR$/testhome/testerhome.py" />
         <option value="$PROJECT_DIR$/testhome/test_testerhome.py" />
+        <option value="$PROJECT_DIR$/testhome/test_pytest.py" />
+        <option value="$PROJECT_DIR$/testhome/test_result.py" />
+        <option value="$PROJECT_DIR$/testhome/conftest.py" />
       </list>
     </option>
   </component>
@@ -74,11 +118,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="319" />
-    <option name="y" value="19" />
-    <option name="width" value="1233" />
-    <option name="height" value="920" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="401" />
+    <option name="y" value="4" />
+    <option name="width" value="1522" />
+    <option name="height" value="908" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,8 +173,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_testerhome.login.test_topics_response">
-    <configuration name="Unittests for test_testerhome.login.test_topics" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_pytest">
+    <configuration name="test_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interface_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testhome" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testhome/test_pytest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for test_testerhome.login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interface_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,10 +204,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_testerhome.login.test_topics&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome.login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_testerhome.login.test_topics_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome.login.test_auth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interface_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,10 +218,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_testerhome.login.test_topics_post&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome.login.test_auth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_testerhome.login.test_topics_response" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome.login.test_httpbin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interface_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,10 +232,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_testerhome.login.test_topics_response&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome.login.test_httpbin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_testerhome.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome.login.test_httpbin2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interface_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,21 +246,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testhome/test_testerhome.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome.login.test_httpbin2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_testerhome.py" />
-      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics" />
-      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics_post" />
-      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics_response" />
+      <item itemvalue="Python tests.Unittests for test_testerhome.login" />
+      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_httpbin" />
+      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_httpbin2" />
+      <item itemvalue="Python tests.Unittests for test_testerhome.login.test_auth" />
+      <item itemvalue="Python.test_pytest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics_response" />
-        <item itemvalue="Python tests.Unittests in test_testerhome.py" />
-        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics_post" />
-        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_topics" />
+        <item itemvalue="Python.test_pytest" />
+        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_auth" />
+        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_httpbin2" />
+        <item itemvalue="Python tests.Unittests for test_testerhome.login.test_httpbin" />
+        <item itemvalue="Python tests.Unittests for test_testerhome.login" />
       </list>
     </recent_temporary>
   </component>
@@ -212,52 +277,60 @@
       <option name="presentableId" value="Default" />
       <updated>1554799132124</updated>
     </task>
+    <task id="LOCAL-00001" summary="test0422">
+      <created>1555901180029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555901180029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 15h 56m 02s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login - 2019.04.22 at 16h 12m 09s.xml">
+      <configuration name="Unittests for test_testerhome.login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 15h 56m 14s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login - 2019.04.22 at 16h 12m 26s.xml">
+      <configuration name="Unittests for test_testerhome.login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 15h 56m 27s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin - 2019.04.22 at 16h 12m 34s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 15h 56m 40s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin2 - 2019.04.22 at 16h 16m 14s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 12m 48s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin - 2019.04.22 at 16h 16m 27s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 48m 51s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin2 - 2019.04.22 at 16h 17m 23s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 49m 24s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin2 - 2019.04.22 at 16h 20m 48s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 56m 07s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_httpbin2 - 2019.04.22 at 16h 21m 10s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_httpbin2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 56m 24s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_auth - 2019.04.22 at 16h 45m 08s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_auth" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_testerhome_login_test_topics_response - 2019.04.18 at 17h 56m 33s.xml">
-      <configuration name="Unittests for test_testerhome.login.test_topics_response" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_test_auth - 2019.04.22 at 16h 47m 39s.xml">
+      <configuration name="Unittests for test_testerhome.login.test_auth" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="401" y="4" width="1522" height="908" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28073993" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23913044" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33506495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21477428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -279,7 +352,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test0422" />
+    <option name="LAST_COMMIT_MESSAGE" value="test0422" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/douban/test_login">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3952">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testhome/test_testerhome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/douban/test_login">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -320,11 +421,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testhome/test_testerhome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="485">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testhome/test_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testhome/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
